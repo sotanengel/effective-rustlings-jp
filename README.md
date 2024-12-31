@@ -1,17 +1,15 @@
-# WIP!!
+# Effective-Rustlings-jp
 
-_現在誠意作成中です！_
-続報があり次第、[ツイッター](https://x.com/sota_eng_prog) or [Qiita](https://qiita.com/sotanengel) で宣言していくので少々お待ちくださいませ。
+Effective Rust(David Drysdale (著), 中田 秀基 (翻訳))で挙げられていた項目を参考に、
+手を動かしながら Effective な Rust の書き方を学ぶことができるコンテンツです(【非公式】です)。
 
-# Effective-Rustlings
-
-Rustlings の**日本語版サードパーティー**へようこそ 😃
-不備などございましたら、[こちら](https://github.com/sotanengel/rustlings-jp/issues)から連絡くださいませ。
+不備などございましたら、[こちら](https://github.com/sotanengel/effective-rustlings-jp/issues)から連絡くださいませ。
 
 # 導入方法
 
-※ 仕様の更新などで手順に変更が加わる可能性があるため、問題が生じた場合には[本家](https://github.com/rust-lang/rustlings/blob/main)などを確認し、
-[こちら](https://github.com/sotanengel/rustlings-jp/issues)で修正内容を報告いただけますと幸いです。
+※ 本ディレクトリは Rustlings という OSS のサードパーティコンテンツとして配信されています。
+仕様の更新などで手順に変更が加わる可能性があるため、問題が生じた場合には[本家](https://github.com/rust-lang/rustlings/blob/main)などを確認し、
+[こちら](https://github.com/sotanengel/effective-rustlings-jp/issues)で修正内容を報告いただけますと幸いです。
 
 ## 1. Rust をインストールする
 
@@ -43,14 +41,14 @@ cargo install rustlings
 
 ## 3.演習問題のダウンロード
 
-最新バージョンの日本語の演習問題をダウンロードしましょう！
+最新バージョンの演習問題をダウンロードしましょう！
 ダウンロードした zip ファイルを解凍し、好きな場所に配置してください。
 
-[ダウンロード](https://github.com/sotanengel/rustlings-jp/tree/20240829)
+[ダウンロード](https://github.com/sotanengel/effective-rustlings-jp/tree/20250101)
 
 ## 4. 演習問題にチャレンジ！
 
-ターミナル上で解凍した`rustlings-jp-YYYYMMDD`のディレクトリに移動し、以下のコマンドを実行してください。
+ターミナル上で解凍した zipg ファイルのディレクトリに移動し、以下のコマンドを実行してください。
 
 ```bash
 rustlings
