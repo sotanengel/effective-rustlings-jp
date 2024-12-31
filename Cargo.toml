@@ -1,5 +1,14 @@
 # Don't edit the `bin` list manually! It is updated by `rustlings dev update`
-bin = []
+bin = [
+  { name = "1_integer_types", path = "exercises/1_types_Use_the_type_system_to_express_your_data_structures/1_integer_types.rs" },
+  { name = "1_integer_types_sol", path = "solutions/1_types_Use_the_type_system_to_express_your_data_structures/1_integer_types.rs" },
+  { name = "2_enum_1", path = "exercises/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_1.rs" },
+  { name = "2_enum_1_sol", path = "solutions/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_1.rs" },
+  { name = "2_enum_2", path = "exercises/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_2.rs" },
+  { name = "2_enum_2_sol", path = "solutions/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_2.rs" },
+  { name = "2_enum_3", path = "exercises/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_3.rs" },
+  { name = "2_enum_3_sol", path = "solutions/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_3.rs" },
+]
 
 [package]
 name = "exercises"
