@@ -3,7 +3,7 @@
 _現在誠意作成中です！_
 続報があり次第、[ツイッター](https://x.com/sota_eng_prog) or [Qiita](https://qiita.com/sotanengel) で宣言していくので少々お待ちくださいませ。
 
-# Effective-Rustlings
+# Effective-Rustlings-jp
 
 Rustlings の**日本語版サードパーティー**へようこそ 😃
 不備などございましたら、[こちら](https://github.com/sotanengel/rustlings-jp/issues)から連絡くださいませ。
