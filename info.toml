@@ -40,3 +40,23 @@ test = false
 hint = """さらに高度な列挙型の使い方を学びましょう。match文でさまざまなケースを処理します。"""
 skip_check_unsolved = false
 
+[[exercises]]
+name = "1_methods"
+dir = "2_types_Use_the_type_system_to_express_common_behavior"
+test = false
+hint = """メソッドの定義方法と使い方を学びます。selfの使い方を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_function_pointer"
+dir = "2_types_Use_the_type_system_to_express_common_behavior"
+test = false
+hint = """関数ポインタを使って柔軟な関数呼び出しを学びます。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "3_closure"
+dir = "2_types_Use_the_type_system_to_express_common_behavior"
+test = false
+hint = """クロージャの基本を学びます。環境をキャプチャする関数を理解しましょう。"""
+skip_check_unsolved = false

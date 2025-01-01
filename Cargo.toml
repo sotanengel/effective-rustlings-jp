@@ -8,6 +8,12 @@ bin = [
   { name = "2_enum_2_sol", path = "solutions/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_2.rs" },
   { name = "2_enum_3", path = "exercises/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_3.rs" },
   { name = "2_enum_3_sol", path = "solutions/1_types_Use_the_type_system_to_express_your_data_structures/2_enum_3.rs" },
+  { name = "1_methods", path = "exercises/2_types_Use_the_type_system_to_express_common_behavior/1_methods.rs" },
+  { name = "1_methods_sol", path = "solutions/2_types_Use_the_type_system_to_express_common_behavior/1_methods.rs" },
+  { name = "2_function_pointer", path = "exercises/2_types_Use_the_type_system_to_express_common_behavior/2_function_pointer.rs" },
+  { name = "2_function_pointer_sol", path = "solutions/2_types_Use_the_type_system_to_express_common_behavior/2_function_pointer.rs" },
+  { name = "3_closure", path = "exercises/2_types_Use_the_type_system_to_express_common_behavior/3_closure.rs" },
+  { name = "3_closure_sol", path = "solutions/2_types_Use_the_type_system_to_express_common_behavior/3_closure.rs" },
 ]
 
 [package]
