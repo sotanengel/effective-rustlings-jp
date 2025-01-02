@@ -14,6 +14,14 @@ bin = [
   { name = "2_function_pointer_sol", path = "solutions/2_types_Use_the_type_system_to_express_common_behavior/2_function_pointer.rs" },
   { name = "3_closure", path = "exercises/2_types_Use_the_type_system_to_express_common_behavior/3_closure.rs" },
   { name = "3_closure_sol", path = "solutions/2_types_Use_the_type_system_to_express_common_behavior/3_closure.rs" },
+  { name = "1_if_let", path = "exercises/3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions/1_if_let.rs" },
+  { name = "1_if_let_sol", path = "solutions/3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions/1_if_let.rs" },
+  { name = "2_processing_outsourced", path = "exercises/3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions/2_processing_outsourced.rs" },
+  { name = "2_processing_outsourced_sol", path = "solutions/3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions/2_processing_outsourced.rs" },
+  { name = "3_unuse_result_type", path = "exercises/3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions/3_unuse_result_type.rs" },
+  { name = "3_unuse_result_type_sol", path = "solutions/3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions/3_unuse_result_type.rs" },
+  { name = "4_sugar_result_process", path = "exercises/3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions/4_sugar_result_process.rs" },
+  { name = "4_sugar_result_process_sol", path = "solutions/3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions/4_sugar_result_process.rs" },
 ]
 
 [package]
