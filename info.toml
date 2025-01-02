@@ -60,3 +60,31 @@ dir = "2_types_Use_the_type_system_to_express_common_behavior"
 test = false
 hint = """クロージャの基本を学びます。環境をキャプチャする関数を理解しましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_if_let"
+dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions"
+test = false
+hint = """if let構文を使って、OptionやResultの安全なunwrapを学びます。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "2_processing_outsourced"
+dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions"
+test = false
+hint = """処理を他の関数に委譲する方法を学びます。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "3_unuse_result_type"
+dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions"
+test = false
+hint = """Result型の未使用を防ぐ方法を学びます。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "4_sugar_result_process"
+dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions"
+test = false
+hint = """Result型のシュガー表現を使って、エラーハンドリングを簡潔に記述します。"""
+skip_check_unsolved = true
