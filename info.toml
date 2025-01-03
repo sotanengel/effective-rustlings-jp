@@ -123,3 +123,17 @@ dir = "5_types_Understand_type_conversions"
 test = false
 hint = """自己型変換の実装について学びます。型変換を繰り返し適用する方法を試してみましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_use_new_type"
+dir = "6_types_Embrace_the_newtype_pattern"
+test = false
+hint = """Newtypeパターンの基本を学びます。型の安全性を向上させる方法を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_avoid_trait_rule"
+dir = "6_types_Embrace_the_newtype_pattern"
+test = false
+hint = """Newtypeパターンを使って、トレイトの実装ルールを回避する方法を学びます。"""
+skip_check_unsolved = false

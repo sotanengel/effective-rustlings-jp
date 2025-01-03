@@ -32,6 +32,10 @@ bin = [
   { name = "2_use_into_sol", path = "solutions/5_types_Understand_type_conversions/2_use_into.rs" },
   { name = "3_reflexive_implementation", path = "exercises/5_types_Understand_type_conversions/3_reflexive_implementation.rs" },
   { name = "3_reflexive_implementation_sol", path = "solutions/5_types_Understand_type_conversions/3_reflexive_implementation.rs" },
+  { name = "1_use_new_type", path = "exercises/6_types_Embrace_the_newtype_pattern/1_use_new_type.rs" },
+  { name = "1_use_new_type_sol", path = "solutions/6_types_Embrace_the_newtype_pattern/1_use_new_type.rs" },
+  { name = "2_avoid_trait_rule", path = "exercises/6_types_Embrace_the_newtype_pattern/2_avoid_trait_rule.rs" },
+  { name = "2_avoid_trait_rule_sol", path = "solutions/6_types_Embrace_the_newtype_pattern/2_avoid_trait_rule.rs" },
 ]
 
 [package]
