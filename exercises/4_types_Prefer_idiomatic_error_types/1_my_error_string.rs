@@ -3,7 +3,7 @@ fn do_something(flag: bool) -> Result<(), String> {
     if flag {
         Ok(())
     } else {
-        String::from("Something went wrong")
+        "Something went wrong".to_string()
     }
 }
 

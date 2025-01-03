@@ -32,7 +32,7 @@ impl error::Error for AppError {
     }
 }
 
-// 便利な変換を追加
+// From<String> を実装して String からの変換を簡単に
 impl From<io::Error> for AppError {
     fn from(err: io::Error) -> Self {
         AppError::NotFound(err)
@@ -59,7 +59,7 @@ fn do_something(input: &str) -> Result<(), AppError> {
             "Input cannot be empty",
         ))?
     } else if input == "404" {
-        Err::<(), AppError>(String::from("Requested resource not found").into())?
+        Err(AppError::from("Requested resource not found".to_string()))?
     } else if input == "500" {
         Err(io::Error::new(
             io::ErrorKind::Other,

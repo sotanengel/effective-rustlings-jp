@@ -33,7 +33,7 @@ fn do_something(flag: bool) -> Result<(), OriginalError> {
     if flag {
         Ok(())
     } else {
-        Err(OriginalError(String::from("Something went wrong")))
+        Err(OriginalError::from("Something went wrong"))
     }
 }
 
