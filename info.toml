@@ -88,3 +88,17 @@ dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressio
 test = false
 hint = """Result型のシュガー表現を使って、エラーハンドリングを簡潔に記述します。"""
 skip_check_unsolved = true
+
+[[exercises]]
+name = "1_my_error_string"
+dir = "4_types_Prefer_idiomatic_error_types"
+test = false
+hint = """エラー文字列を使って独自のエラーハンドリングを実装します。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_nest_error"
+dir = "4_types_Prefer_idiomatic_error_types"
+test = true
+hint = """エラーのネストを学びます。エラーの中に別のエラーを含めることで、詳細なエラーメッセージを作成します。"""
+skip_check_unsolved = true
