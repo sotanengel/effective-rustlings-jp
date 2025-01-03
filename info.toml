@@ -102,3 +102,24 @@ dir = "4_types_Prefer_idiomatic_error_types"
 test = true
 hint = """エラーのネストを学びます。エラーの中に別のエラーを含めることで、詳細なエラーメッセージを作成します。"""
 skip_check_unsolved = true
+
+[[exercises]]
+name = "1_write_from_trait"
+dir = "5_types_Understand_type_conversions"
+test = false
+hint = """Fromトレイトの実装方法を学びます。型変換の仕組みを理解しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_use_into"
+dir = "5_types_Understand_type_conversions"
+test = false
+hint = """Intoトレイトを使った型変換の方法を学びます。IntoはFromの逆として動作します。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "3_reflexive_implementation"
+dir = "5_types_Understand_type_conversions"
+test = false
+hint = """自己型変換の実装について学びます。型変換を繰り返し適用する方法を試してみましょう。"""
+skip_check_unsolved = false

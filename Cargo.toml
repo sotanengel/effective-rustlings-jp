@@ -26,6 +26,12 @@ bin = [
   { name = "1_my_error_string_sol", path = "solutions/4_types_Prefer_idiomatic_error_types/1_my_error_string.rs" },
   { name = "2_nest_error", path = "exercises/4_types_Prefer_idiomatic_error_types/2_nest_error.rs" },
   { name = "2_nest_error_sol", path = "solutions/4_types_Prefer_idiomatic_error_types/2_nest_error.rs" },
+  { name = "1_write_from_trait", path = "exercises/5_types_Understand_type_conversions/1_write_from_trait.rs" },
+  { name = "1_write_from_trait_sol", path = "solutions/5_types_Understand_type_conversions/1_write_from_trait.rs" },
+  { name = "2_use_into", path = "exercises/5_types_Understand_type_conversions/2_use_into.rs" },
+  { name = "2_use_into_sol", path = "solutions/5_types_Understand_type_conversions/2_use_into.rs" },
+  { name = "3_reflexive_implementation", path = "exercises/5_types_Understand_type_conversions/3_reflexive_implementation.rs" },
+  { name = "3_reflexive_implementation_sol", path = "solutions/5_types_Understand_type_conversions/3_reflexive_implementation.rs" },
 ]
 
 [package]
