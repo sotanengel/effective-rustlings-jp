@@ -40,6 +40,14 @@ bin = [
   { name = "1_create_builder_1_sol", path = "solutions/7_types_Use_builders_for_complex_types/1_create_builder_1.rs" },
   { name = "1_create_builder_2", path = "exercises/7_types_Use_builders_for_complex_types/1_create_builder_2.rs" },
   { name = "1_create_builder_2_sol", path = "solutions/7_types_Use_builders_for_complex_types/1_create_builder_2.rs" },
+  { name = "1_iter_sum", path = "exercises/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/1_iter_sum.rs" },
+  { name = "1_iter_sum_sol", path = "solutions/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/1_iter_sum.rs" },
+  { name = "2_iter_skip", path = "exercises/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/2_iter_skip.rs" },
+  { name = "2_iter_skip_sol", path = "solutions/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/2_iter_skip.rs" },
+  { name = "3_iter_filter", path = "exercises/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/3_iter_filter.rs" },
+  { name = "3_iter_filter_sol", path = "solutions/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/3_iter_filter.rs" },
+  { name = "4_turbofish_syntax", path = "exercises/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/4_turbofish_syntax.rs" },
+  { name = "4_turbofish_syntax_sol", path = "solutions/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/4_turbofish_syntax.rs" },
 ]
 
 [package]
