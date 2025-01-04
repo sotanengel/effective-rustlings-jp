@@ -102,3 +102,52 @@ dir = "4_types_Prefer_idiomatic_error_types"
 test = true
 hint = """エラーのネストを学びます。エラーの中に別のエラーを含めることで、詳細なエラーメッセージを作成します。"""
 skip_check_unsolved = true
+
+[[exercises]]
+name = "1_write_from_trait"
+dir = "5_types_Understand_type_conversions"
+test = false
+hint = """Fromトレイトの実装方法を学びます。型変換の仕組みを理解しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_use_into"
+dir = "5_types_Understand_type_conversions"
+test = false
+hint = """Intoトレイトを使った型変換の方法を学びます。IntoはFromの逆として動作します。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "3_reflexive_implementation"
+dir = "5_types_Understand_type_conversions"
+test = false
+hint = """自己型変換の実装について学びます。型変換を繰り返し適用する方法を試してみましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "1_use_new_type"
+dir = "6_types_Embrace_the_newtype_pattern"
+test = false
+hint = """Newtypeパターンの基本を学びます。型の安全性を向上させる方法を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_avoid_trait_rule"
+dir = "6_types_Embrace_the_newtype_pattern"
+test = false
+hint = """Newtypeパターンを使って、トレイトの実装ルールを回避する方法を学びます。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "1_create_builder_1"
+dir = "7_types_Use_builders_for_complex_types"
+test = false
+hint = """ビルダーパターンを使って複雑な型の構築を学びます。メソッドチェーンを使った実装方法を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "1_create_builder_2"
+dir = "7_types_Use_builders_for_complex_types"
+test = false
+hint = """ビルダーパターンの応用編です。オプショナルなフィールドの処理方法を学びます。"""
+skip_check_unsolved = false
