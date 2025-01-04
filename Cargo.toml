@@ -36,6 +36,10 @@ bin = [
   { name = "1_use_new_type_sol", path = "solutions/6_types_Embrace_the_newtype_pattern/1_use_new_type.rs" },
   { name = "2_avoid_trait_rule", path = "exercises/6_types_Embrace_the_newtype_pattern/2_avoid_trait_rule.rs" },
   { name = "2_avoid_trait_rule_sol", path = "solutions/6_types_Embrace_the_newtype_pattern/2_avoid_trait_rule.rs" },
+  { name = "1_create_builder_1", path = "exercises/7_types_Use_builders_for_complex_types/1_create_builder_1.rs" },
+  { name = "1_create_builder_1_sol", path = "solutions/7_types_Use_builders_for_complex_types/1_create_builder_1.rs" },
+  { name = "1_create_builder_2", path = "exercises/7_types_Use_builders_for_complex_types/1_create_builder_2.rs" },
+  { name = "1_create_builder_2_sol", path = "solutions/7_types_Use_builders_for_complex_types/1_create_builder_2.rs" },
 ]
 
 [package]
@@ -45,3 +49,4 @@ edition = "2021"
 publish = false
 
 [dependencies]
+time = { version = "0.3", features = ["macros"] }

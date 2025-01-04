@@ -137,3 +137,17 @@ dir = "6_types_Embrace_the_newtype_pattern"
 test = false
 hint = """Newtypeパターンを使って、トレイトの実装ルールを回避する方法を学びます。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_create_builder_1"
+dir = "7_types_Use_builders_for_complex_types"
+test = false
+hint = """ビルダーパターンを使って複雑な型の構築を学びます。メソッドチェーンを使った実装方法を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "1_create_builder_2"
+dir = "7_types_Use_builders_for_complex_types"
+test = false
+hint = """ビルダーパターンの応用編です。オプショナルなフィールドの処理方法を学びます。"""
+skip_check_unsolved = false
