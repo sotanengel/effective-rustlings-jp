@@ -48,6 +48,14 @@ bin = [
   { name = "3_iter_filter_sol", path = "solutions/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/3_iter_filter.rs" },
   { name = "4_turbofish_syntax", path = "exercises/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/4_turbofish_syntax.rs" },
   { name = "4_turbofish_syntax_sol", path = "solutions/9_types_Consider_using_iterator_transforms_instead_of_explicit_loops/4_turbofish_syntax.rs" },
+  { name = "1_clone", path = "exercises/10_traits_Familiarize_yourself_with_standard_traits/1_clone.rs" },
+  { name = "1_clone_sol", path = "solutions/10_traits_Familiarize_yourself_with_standard_traits/1_clone.rs" },
+  { name = "2_copy", path = "exercises/10_traits_Familiarize_yourself_with_standard_traits/2_copy.rs" },
+  { name = "2_copy_sol", path = "solutions/10_traits_Familiarize_yourself_with_standard_traits/2_copy.rs" },
+  { name = "3_default", path = "exercises/10_traits_Familiarize_yourself_with_standard_traits/3_default.rs" },
+  { name = "3_default_sol", path = "solutions/10_traits_Familiarize_yourself_with_standard_traits/3_default.rs" },
+  { name = "4_PartialEq", path = "exercises/10_traits_Familiarize_yourself_with_standard_traits/4_PartialEq.rs" },
+  { name = "4_PartialEq_sol", path = "solutions/10_traits_Familiarize_yourself_with_standard_traits/4_PartialEq.rs" },
 ]
 
 [package]
