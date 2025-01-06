@@ -207,3 +207,10 @@ dir = "10_traits_Familiarize_yourself_with_standard_traits"
 test = false
 hint = """PartialEqトレイトを実装して、等価比較の方法を学びます。自作型での比較演算子の動作を確認しましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_drop"
+dir = "11_traits_Implement_the_drop_trait_for_RAII_patterns"
+test = false
+hint = """ユーザー定義のDropトレイトを実装して、リソースの解放処理を学びます。"""
+skip_check_unsolved = true
