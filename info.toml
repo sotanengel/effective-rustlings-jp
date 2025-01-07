@@ -151,3 +151,66 @@ dir = "7_types_Use_builders_for_complex_types"
 test = false
 hint = """ビルダーパターンの応用編です。オプショナルなフィールドの処理方法を学びます。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_iter_sum"
+dir = "9_types_Consider_using_iterator_transforms_instead_of_explicit_loops"
+test = false
+hint = """iter().sum()を使って、反復処理で合計を求める方法を学びます。ループを使わずに結果を取得しましょう。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "2_iter_skip"
+dir = "9_types_Consider_using_iterator_transforms_instead_of_explicit_loops"
+test = false
+hint = """iter().skip(n)で先頭からn個の要素をスキップします。イテレータを活用して効率的にデータを処理しましょう。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "3_iter_filter"
+dir = "9_types_Consider_using_iterator_transforms_instead_of_explicit_loops"
+test = false
+hint = """iter().filter()を使って条件に合う要素を抽出します。ループを使わずにデータをフィルタリングしましょう。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "4_turbofish_syntax"
+dir = "9_types_Consider_using_iterator_transforms_instead_of_explicit_loops"
+test = true
+hint = """collectでターボフィッシュ記法(::<>構文)を使って型を指定する方法を学びます。曖昧な型を明確に指定しましょう。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "1_clone"
+dir = "10_traits_Familiarize_yourself_with_standard_traits"
+test = false
+hint = """Cloneトレイトを実装して、オブジェクトの複製方法を学びます。派生で自動的にCloneを付与できる方法も確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_copy"
+dir = "10_traits_Familiarize_yourself_with_standard_traits"
+test = false
+hint = """Copyトレイトを使って、値のコピーを作成する方法を学びます。Cloneとの違いを意識しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "3_default"
+dir = "10_traits_Familiarize_yourself_with_standard_traits"
+test = false
+hint = """Defaultトレイトを使って、デフォルト値を生成する方法を学びます。deriveマクロを活用して簡潔に実装しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "4_PartialEq"
+dir = "10_traits_Familiarize_yourself_with_standard_traits"
+test = false
+hint = """PartialEqトレイトを実装して、等価比較の方法を学びます。自作型での比較演算子の動作を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "1_drop"
+dir = "11_traits_Implement_the_drop_trait_for_RAII_patterns"
+test = false
+hint = """ユーザー定義のDropトレイトを実装して、リソースの解放処理を学びます。"""
+skip_check_unsolved = true
