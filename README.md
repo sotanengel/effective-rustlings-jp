@@ -3,6 +3,10 @@
 [Effective Rust(David Drysdale (著), 中田 秀基 (翻訳))](https://www.oreilly.com/library/view/effective-rust/9781098151393/)で挙げられていた項目を参考に、
 手を動かしながら Effective な Rust の書き方を学ぶことができるコンテンツです(【非公式】です)。
 
+以下のブログで解説記事も作成しております。
+
+# [![Qiita 解説記事](img/qiita_img.png)](https://qiita.com/sotanengel/items/78103dcfe2fa34f8815e)
+
 不備などございましたら、[こちら](https://github.com/sotanengel/effective-rustlings-jp/issues)から連絡くださいませ。
 
 # 導入方法
