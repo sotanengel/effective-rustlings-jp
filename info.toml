@@ -214,3 +214,31 @@ dir = "11_traits_Implement_the_drop_trait_for_RAII_patterns"
 test = false
 hint = """ユーザー定義のDropトレイトを実装して、リソースの解放処理を学びます。"""
 skip_check_unsolved = true
+
+[[exercises]]
+name = "1_generics"
+dir = "12_traits_Understand_the_trade_offs_between_generics_and_trait_objects"
+test = false
+hint = """ジェネリクスの基本を学びます。型パラメータを使って汎用的な関数や構造体を実装しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_trait_objects"
+dir = "12_traits_Understand_the_trade_offs_between_generics_and_trait_objects"
+test = false
+hint = """トレイトオブジェクトを使って異なる型を一括で処理する方法を学びます。dynキーワードを使い、ランタイムで型が決定される方法を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "3_trait_for_trait"
+dir = "12_traits_Understand_the_trade_offs_between_generics_and_trait_objects"
+test = false
+hint = """トレイトを別のトレイトに対して実装する方法を学びます。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "4_include_different_struct"
+dir = "12_traits_Understand_the_trade_offs_between_generics_and_trait_objects"
+test = false
+hint = """異なる構造体をトレイトオブジェクトとしてまとめる方法を学びます。共通のインターフェースを持たせる設計を試しましょう。"""
+skip_check_unsolved = false
