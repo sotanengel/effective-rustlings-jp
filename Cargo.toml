@@ -58,6 +58,16 @@ bin = [
   { name = "4_PartialEq_sol", path = "solutions/10_traits_Familiarize_yourself_with_standard_traits/4_PartialEq.rs" },
   { name = "1_drop", path = "exercises/11_traits_Implement_the_drop_trait_for_RAII_patterns/1_drop.rs" },
   { name = "1_drop_sol", path = "solutions/11_traits_Implement_the_drop_trait_for_RAII_patterns/1_drop.rs" },
+  { name = "1_generics", path = "exercises/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/1_generics.rs" },
+  { name = "1_generics_sol", path = "solutions/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/1_generics.rs" },
+  { name = "2_trait_objects", path = "exercises/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/2_trait_objects.rs" },
+  { name = "2_trait_objects_sol", path = "solutions/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/2_trait_objects.rs" },
+  { name = "3_trait_for_trait", path = "exercises/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/3_trait_for_trait.rs" },
+  { name = "3_trait_for_trait_sol", path = "solutions/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/3_trait_for_trait.rs" },
+  { name = "4_include_different_struct", path = "exercises/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/4_include_different_struct.rs" },
+  { name = "4_include_different_struct_sol", path = "solutions/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/4_include_different_struct.rs" },
+  { name = "1_required_and_default_methods", path = "exercises/13_traits_Use_default_implementations_to_minimize_required_trait_methods/1_required_and_default_methods.rs" },
+  { name = "1_required_and_default_methods_sol", path = "solutions/13_traits_Use_default_implementations_to_minimize_required_trait_methods/1_required_and_default_methods.rs" },
 ]
 
 [package]
