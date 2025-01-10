@@ -249,3 +249,10 @@ dir = "13_traits_Use_default_implementations_to_minimize_required_trait_methods"
 test = false
 hint = """トレイトにおける必須メソッドとデフォルトメソッドの違いを学びます。デフォルト実装を使うことで必要なメソッドの実装を最小限に抑える方法を確認しましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_hint_for_panic"
+dir = "18_concepts_Dont_panic"
+test = true
+hint = """Rustではパニック処理を適切に扱う方法を学びます。適切なエラーハンドリングを実装して、安全なコードを書く方法を確認しましょう。"""
+skip_check_unsolved = false
