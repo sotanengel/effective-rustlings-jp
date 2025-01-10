@@ -1,7 +1,7 @@
 use std::env;
 use std::num::ParseIntError;
 
-// `CRITICAL_ENV` がセットされているか、確認する。
+// `PATH` がセットされているか、確認する。
 // TODO: このコードはpanic!とResultどちらがいいでしょうか？
 fn get_critical_env() -> {
     match env::var("PATH") {
@@ -46,7 +46,7 @@ mod tests {
         assert_eq!(value, "test_value");
     }
 
-    // CRITICAL_ENV がセットされていない場合は panic! することを確認
+    // PATH がセットされていない場合は panic! することを確認
     #[test]
     #[should_panic(expected = "PATH environment variable is not set! Aborting...")]
     fn test_get_critical_env_panic() {
