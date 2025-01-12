@@ -1,5 +1,5 @@
 #[derive(Debug)]
-#[warn(dead_code)]
+#[allow(dead_code)]
 struct MyStruct {
     value: String,
 }
