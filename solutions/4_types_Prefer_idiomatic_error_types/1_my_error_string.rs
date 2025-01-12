@@ -1,39 +1,47 @@
-use std::error;
-use std::fmt;
+use std::{error::Error, fmt};
 
-// 独自エラー型の定義 (タプル構造体)
+// 独自エラー型
 #[derive(Debug)]
-pub struct OriginalError(String);
+struct MyError {
+    message: String,
+    code: u32,
+}
 
 // Displayトレイトを実装してエラーメッセージを整える
-impl fmt::Display for OriginalError {
+impl fmt::Display for MyError {
     fn fmt(&self, f: &mut fmt::Formatter<'_>) -> fmt::Result {
-        write!(f, "Error: {}", self.0)
+        write!(f, "[Error Code: {}] {}", self.code, self.message)
     }
 }
 
 // error::Errorトレイトを実装
-impl error::Error for OriginalError {}
+impl Error for MyError {}
 
 // From<String> を実装して String からの変換を簡単に
-impl From<String> for OriginalError {
+impl From<String> for MyError {
     fn from(message: String) -> Self {
-        OriginalError(message)
+        MyError {
+            message,
+            code: 1000, // デフォルトのエラーコード
+        }
     }
 }
 
 // &str からの変換もできるようにする
-impl From<&str> for OriginalError {
+impl From<&str> for MyError {
     fn from(message: &str) -> Self {
-        OriginalError(message.to_string())
+        MyError {
+            message: message.to_string(),
+            code: 1000, // デフォルトのエラーコード
+        }
     }
 }
 
-fn do_something(flag: bool) -> Result<(), OriginalError> {
+fn do_something(flag: bool) -> Result<(), MyError> {
     if flag {
         Ok(())
     } else {
-        Err(OriginalError::from("Something went wrong"))
+        Err(MyError::from("Something went wrong"))
     }
 }
 
@@ -41,8 +49,16 @@ fn main() {
     match do_something(false) {
         Ok(_) => println!("Success!"),
         Err(e) => {
-            let error_message = format!("Failed: {}", e);
-            println!("{}", error_message);
+            eprintln!("Error: {}", e); // 独自エラー型の出力
+            if let Some(source) = e.source() {
+                eprintln!("Caused by: {}", source);
+            }
         }
     }
+
+    let error_from_string: MyError = "An error occurred".to_string().into();
+    println!("Generated error: {}", error_from_string);
+
+    let error_from_str: MyError = "Another error occurred".into();
+    println!("Generated error: {}", error_from_str);
 }
