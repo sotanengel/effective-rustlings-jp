@@ -11,5 +11,5 @@ fn main() {
 
     // TODO: 返却されたResult型は使用する必要があります。
     // matchを使って、計算結果を表示してください。
-    println!("result is Error");
+    true // この行は実装時に削除してください。
 }
