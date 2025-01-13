@@ -70,6 +70,8 @@ bin = [
   { name = "1_required_and_default_methods_sol", path = "solutions/13_traits_Use_default_implementations_to_minimize_required_trait_methods/1_required_and_default_methods.rs" },
   { name = "1_hint_for_panic", path = "exercises/18_concepts_Dont_panic/1_hint_for_panic.rs" },
   { name = "1_hint_for_panic_sol", path = "solutions/18_concepts_Dont_panic/1_hint_for_panic.rs" },
+  { name = "1_check_unique_id", path = "exercises/19_concepts_Avoid_reflection/1_check_unique_id.rs" },
+  { name = "1_check_unique_id_sol", path = "solutions/19_concepts_Avoid_reflection/1_check_unique_id.rs" },
 ]
 
 [package]

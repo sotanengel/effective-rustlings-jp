@@ -256,3 +256,10 @@ dir = "18_concepts_Dont_panic"
 test = true
 hint = """Rustではパニック処理を適切に扱う方法を学びます。適切なエラーハンドリングを実装して、安全なコードを書く方法を確認しましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_check_unique_id"
+dir = "19_concepts_Avoid_reflection"
+test = false
+hint = """リフレクションを避けつつ、一意のIDを確認する方法を学びます。"""
+skip_check_unsolved = false
