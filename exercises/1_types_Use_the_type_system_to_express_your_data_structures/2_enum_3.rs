@@ -1,4 +1,5 @@
 // 信号の状態を表すEnum
+#[allow(dead_code)]
 enum TrafficLight {
     Red,
     Yellow,

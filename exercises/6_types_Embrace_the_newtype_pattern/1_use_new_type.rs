@@ -36,13 +36,3 @@ fn main() {
     let weight_in_grams = convert_to_grams(weight);
     println!("Weight in grams: {} g", weight_in_grams);
 }
-
-/// テストモジュール
-/// コンパイルエラーを期待するテスト
-///
-/// ```compile_fail
-/// let m = Meters::from(3.0);
-/// // Kilograms 型を要求している関数に Meters を渡す -> エラー
-/// let _ = convert_to_grams(m);
-/// ```
-fn compile_fail_example() {}

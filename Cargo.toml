@@ -68,6 +68,12 @@ bin = [
   { name = "4_include_different_struct_sol", path = "solutions/12_traits_Understand_the_trade_offs_between_generics_and_trait_objects/4_include_different_struct.rs" },
   { name = "1_required_and_default_methods", path = "exercises/13_traits_Use_default_implementations_to_minimize_required_trait_methods/1_required_and_default_methods.rs" },
   { name = "1_required_and_default_methods_sol", path = "solutions/13_traits_Use_default_implementations_to_minimize_required_trait_methods/1_required_and_default_methods.rs" },
+  { name = "1_hint_for_panic", path = "exercises/18_concepts_Dont_panic/1_hint_for_panic.rs" },
+  { name = "1_hint_for_panic_sol", path = "solutions/18_concepts_Dont_panic/1_hint_for_panic.rs" },
+  { name = "1_check_unique_id", path = "exercises/19_concepts_Avoid_reflection/1_check_unique_id.rs" },
+  { name = "1_check_unique_id_sol", path = "solutions/19_concepts_Avoid_reflection/1_check_unique_id.rs" },
+  { name = "1_check_pub_action", path = "exercises/22_dependencies_Minimize_visibility/1_check_pub_action.rs" },
+  { name = "1_check_pub_action_sol", path = "solutions/22_dependencies_Minimize_visibility/1_check_pub_action.rs" },
 ]
 
 [package]

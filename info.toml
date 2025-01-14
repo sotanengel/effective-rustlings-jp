@@ -66,28 +66,28 @@ name = "1_if_let"
 dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions"
 test = false
 hint = """if let構文を使って、OptionやResultの安全なunwrapを学びます。"""
-skip_check_unsolved = true
+skip_check_unsolved = false
 
 [[exercises]]
 name = "2_processing_outsourced"
 dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions"
 test = false
 hint = """処理を他の関数に委譲する方法を学びます。"""
-skip_check_unsolved = true
+skip_check_unsolved = false
 
 [[exercises]]
 name = "3_unuse_result_type"
 dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions"
 test = false
 hint = """Result型の未使用を防ぐ方法を学びます。"""
-skip_check_unsolved = true
+skip_check_unsolved = false
 
 [[exercises]]
 name = "4_sugar_result_process"
 dir = "3_types_Prefer_option_and_result_transforms_over_explicit_match_expressions"
 test = false
 hint = """Result型のシュガー表現を使って、エラーハンドリングを簡潔に記述します。"""
-skip_check_unsolved = true
+skip_check_unsolved = false
 
 [[exercises]]
 name = "1_my_error_string"
@@ -248,4 +248,25 @@ name = "1_required_and_default_methods"
 dir = "13_traits_Use_default_implementations_to_minimize_required_trait_methods"
 test = false
 hint = """トレイトにおける必須メソッドとデフォルトメソッドの違いを学びます。デフォルト実装を使うことで必要なメソッドの実装を最小限に抑える方法を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "1_hint_for_panic"
+dir = "18_concepts_Dont_panic"
+test = true
+hint = """Rustではパニック処理を適切に扱う方法を学びます。適切なエラーハンドリングを実装して、安全なコードを書く方法を確認しましょう。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "1_check_unique_id"
+dir = "19_concepts_Avoid_reflection"
+test = false
+hint = """リフレクションを避けつつ、一意のIDを確認する方法を学びます。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "1_check_pub_action"
+dir = "22_dependencies_Minimize_visibility"
+test = false
+hint = """モジュールや関数の公開範囲を最小化する方法を学びます。Rustの`pub`キーワードを活用して安全な設計を試してみましょう。"""
 skip_check_unsolved = false
