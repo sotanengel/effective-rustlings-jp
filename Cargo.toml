@@ -72,6 +72,8 @@ bin = [
   { name = "1_hint_for_panic_sol", path = "solutions/18_concepts_Dont_panic/1_hint_for_panic.rs" },
   { name = "1_check_unique_id", path = "exercises/19_concepts_Avoid_reflection/1_check_unique_id.rs" },
   { name = "1_check_unique_id_sol", path = "solutions/19_concepts_Avoid_reflection/1_check_unique_id.rs" },
+  { name = "1_check_pub_action", path = "exercises/22_dependencies_Minimize_visibility/1_check_pub_action.rs" },
+  { name = "1_check_pub_action_sol", path = "solutions/22_dependencies_Minimize_visibility/1_check_pub_action.rs" },
 ]
 
 [package]
