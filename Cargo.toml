@@ -74,6 +74,8 @@ bin = [
   { name = "1_check_unique_id_sol", path = "solutions/19_concepts_Avoid_reflection/1_check_unique_id.rs" },
   { name = "1_check_pub_action", path = "exercises/22_dependencies_Minimize_visibility/1_check_pub_action.rs" },
   { name = "1_check_pub_action_sol", path = "solutions/22_dependencies_Minimize_visibility/1_check_pub_action.rs" },
+  { name = "1_not_use_wildcard", path = "exercises/23_dependencies_Avoid_wildcard_imports/1_not_use_wildcard.rs" },
+  { name = "1_not_use_wildcard_sol", path = "solutions/23_dependencies_Avoid_wildcard_imports/1_not_use_wildcard.rs" },
 ]
 
 [package]
