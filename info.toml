@@ -270,3 +270,10 @@ dir = "22_dependencies_Minimize_visibility"
 test = false
 hint = """モジュールや関数の公開範囲を最小化する方法を学びます。Rustの`pub`キーワードを活用して安全な設計を試してみましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_not_use_wildcard"
+dir = "23_dependencies_Avoid_wildcard_imports"
+test = false
+hint = """ワイルドカードインポート（`use crate::*`）を避け、必要なものだけを明示的にインポートする方法を学びます。コードの可読性と安全性を向上させましょう。"""
+skip_check_unsolved = false
