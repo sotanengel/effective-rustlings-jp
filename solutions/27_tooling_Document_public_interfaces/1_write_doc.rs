@@ -22,14 +22,14 @@
 /// // let result_fail = parse_and_print("abc", "解析失敗"); // panic!
 /// ```
 ///
-/// # パニックについて
-///
+/// # Panics
+/// TODO: パニック条件を記載してみましょう。
 /// - 入力文字列を [`i32::parse()`] でパースできない場合、
 ///   [`panic!`] で強制終了します。  
 /// - [`panic!`](https://doc.rust-lang.org/std/macro.panic.html) マクロは
 ///   リカバリ不能なエラーを表すために使われるもので、アプリケーション全体を終了させます。
 ///
-/// # `unsafe` の使用について
+/// # Safety
 ///
 /// この関数では、内部で一部 [`unsafe`](https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html) ブロックを使用しています。
 /// Rust では [`unsafe`] コードはメモリ安全性をコンパイラに保証させないため、
