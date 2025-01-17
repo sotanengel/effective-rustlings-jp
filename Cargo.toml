@@ -76,6 +76,8 @@ bin = [
   { name = "1_check_pub_action_sol", path = "solutions/22_dependencies_Minimize_visibility/1_check_pub_action.rs" },
   { name = "1_not_use_wildcard", path = "exercises/23_dependencies_Avoid_wildcard_imports/1_not_use_wildcard.rs" },
   { name = "1_not_use_wildcard_sol", path = "solutions/23_dependencies_Avoid_wildcard_imports/1_not_use_wildcard.rs" },
+  { name = "1_write_doc", path = "exercises/27_tooling_Document_public_interfaces/1_write_doc.rs" },
+  { name = "1_write_doc_sol", path = "solutions/27_tooling_Document_public_interfaces/1_write_doc.rs" },
 ]
 
 [package]

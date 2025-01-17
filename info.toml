@@ -277,3 +277,10 @@ dir = "23_dependencies_Avoid_wildcard_imports"
 test = false
 hint = """ワイルドカードインポート（`use crate::*`）を避け、必要なものだけを明示的にインポートする方法を学びます。コードの可読性と安全性を向上させましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_write_doc"
+dir = "27_tooling_Document_public_interfaces"
+test = false
+hint = """Rustのドキュメンテーションコメント（///）を使って、パブリックインターフェースを適切に記述する方法を学びます。ツールを使ったドキュメント生成も試してみましょう。"""
+skip_check_unsolved = false
