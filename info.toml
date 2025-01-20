@@ -284,3 +284,17 @@ dir = "27_tooling_Document_public_interfaces"
 test = false
 hint = """Rustのドキュメンテーションコメント（///）を使って、パブリックインターフェースを適切に記述する方法を学びます。ツールを使ったドキュメント生成も試してみましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_be_careful_order_definition"
+dir = "28_tooling_Use_macros_judiciously"
+test = false
+hint = """マクロの定義順序に注意する方法を学びます。Rustではマクロが使用される前に定義されている必要があります。"""
+skip_check_unsolved = false
+
+[[exercises]]
+name = "2_local_scope"
+dir = "28_tooling_Use_macros_judiciously"
+test = false
+hint = """マクロのスコープに関する注意点を学びます。ローカルスコープでのマクロの動作を確認しましょう。"""
+skip_check_unsolved = false

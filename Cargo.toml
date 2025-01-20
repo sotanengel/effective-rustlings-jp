@@ -78,6 +78,10 @@ bin = [
   { name = "1_not_use_wildcard_sol", path = "solutions/23_dependencies_Avoid_wildcard_imports/1_not_use_wildcard.rs" },
   { name = "1_write_doc", path = "exercises/27_tooling_Document_public_interfaces/1_write_doc.rs" },
   { name = "1_write_doc_sol", path = "solutions/27_tooling_Document_public_interfaces/1_write_doc.rs" },
+  { name = "1_be_careful_order_definition", path = "exercises/28_tooling_Use_macros_judiciously/1_be_careful_order_definition.rs" },
+  { name = "1_be_careful_order_definition_sol", path = "solutions/28_tooling_Use_macros_judiciously/1_be_careful_order_definition.rs" },
+  { name = "2_local_scope", path = "exercises/28_tooling_Use_macros_judiciously/2_local_scope.rs" },
+  { name = "2_local_scope_sol", path = "solutions/28_tooling_Use_macros_judiciously/2_local_scope.rs" },
 ]
 
 [package]
