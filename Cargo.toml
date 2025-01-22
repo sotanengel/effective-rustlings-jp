@@ -82,6 +82,12 @@ bin = [
   { name = "1_be_careful_order_definition_sol", path = "solutions/28_tooling_Use_macros_judiciously/1_be_careful_order_definition.rs" },
   { name = "2_local_scope", path = "exercises/28_tooling_Use_macros_judiciously/2_local_scope.rs" },
   { name = "2_local_scope_sol", path = "solutions/28_tooling_Use_macros_judiciously/2_local_scope.rs" },
+  { name = "1_unused_variables", path = "exercises/29_tooling_Listen_to_clippy/1_unused_variables.rs" },
+  { name = "1_unused_variables_sol", path = "solutions/29_tooling_Listen_to_clippy/1_unused_variables.rs" },
+  { name = "2_clone_on_copy", path = "exercises/29_tooling_Listen_to_clippy/2_clone_on_copy.rs" },
+  { name = "2_clone_on_copy_sol", path = "solutions/29_tooling_Listen_to_clippy/2_clone_on_copy.rs" },
+  { name = "3_inefficient_to_string", path = "exercises/29_tooling_Listen_to_clippy/3_inefficient_to_string.rs" },
+  { name = "3_inefficient_to_string_sol", path = "solutions/29_tooling_Listen_to_clippy/3_inefficient_to_string.rs" },
 ]
 
 [package]

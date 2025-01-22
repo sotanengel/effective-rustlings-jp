@@ -298,3 +298,24 @@ dir = "28_tooling_Use_macros_judiciously"
 test = false
 hint = """マクロのスコープに関する注意点を学びます。ローカルスコープでのマクロの動作を確認しましょう。"""
 skip_check_unsolved = false
+
+[[exercises]]
+name = "1_unused_variables"
+dir = "29_tooling_Listen_to_clippy"
+test = false
+hint = """未使用の変数に関するClippyの警告を修正する方法を学びます。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "2_clone_on_copy"
+dir = "29_tooling_Listen_to_clippy"
+test = false
+hint = """Copyトレイトを持つ型での不必要なClone呼び出しを修正します。効率的なコードを書く方法を確認しましょう。"""
+skip_check_unsolved = true
+
+[[exercises]]
+name = "3_inefficient_to_string"
+dir = "29_tooling_Listen_to_clippy"
+test = false
+hint = """非効率的なto_stringの使用をClippyで検出し、適切な置き換えを学びます。format!やas_refを活用して効率化しましょう。"""
+skip_check_unsolved = true
