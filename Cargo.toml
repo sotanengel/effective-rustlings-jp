@@ -88,6 +88,8 @@ bin = [
   { name = "2_clone_on_copy_sol", path = "solutions/29_tooling_Listen_to_clippy/2_clone_on_copy.rs" },
   { name = "3_inefficient_to_string", path = "exercises/29_tooling_Listen_to_clippy/3_inefficient_to_string.rs" },
   { name = "3_inefficient_to_string_sol", path = "solutions/29_tooling_Listen_to_clippy/3_inefficient_to_string.rs" },
+  { name = "1_tests", path = "exercises/30_tooling_Write_more_than_unit_tests/1_tests.rs" },
+  { name = "1_tests_sol", path = "solutions/30_tooling_Write_more_than_unit_tests/1_tests.rs" },
 ]
 
 [package]

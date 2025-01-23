@@ -319,3 +319,10 @@ dir = "29_tooling_Listen_to_clippy"
 test = false
 hint = """非効率的なto_stringの使用をClippyで検出し、適切な置き換えを学びます。format!やas_refを活用して効率化しましょう。"""
 skip_check_unsolved = true
+
+[[exercises]]
+name = "1_tests"
+dir = "30_tooling_Write_more_than_unit_tests"
+test = true
+hint = """ユニットテスト以外のテストの書き方を学びます。"""
+skip_check_unsolved = false
