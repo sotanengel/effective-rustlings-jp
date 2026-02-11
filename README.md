@@ -1,6 +1,6 @@
 # Effective-Rustlings-jp
 
-[Effective Rust(David Drysdale (著), 中田 秀基 (翻訳))](https://www.oreilly.com/library/view/effective-rust/9781098151393/)で挙げられていた項目を参考に、
+[Effective Rust(David Drysdale (著), 中田 秀基 (翻訳))](https://amzn.to/4rDWlIh)で挙げられていた項目を参考に、
 手を動かしながら Effective な Rust の書き方を学ぶことができるコンテンツです(【非公式】です)。
 
 以下のブログで解説記事も作成しております。
